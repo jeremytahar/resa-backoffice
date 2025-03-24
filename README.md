@@ -13,33 +13,29 @@ Ce projet est un backoffice développé en React pour gérer les réservations. 
 
 Avant de commencer, assurez-vous que vous avez les éléments suivants installés sur votre machine :
 
-- [Node.js](https://nodejs.org/en/) (version 14 ou supérieure)
-- [npm](https://www.npmjs.com/) (ou [yarn](https://yarnpkg.com/), si vous préférez)
+- [Node.js](https://nodejs.org/en/)
+- [npm](https://www.npmjs.com/)
 
 ## Installation
 
 1. Clonez ce repository :
     ```bash
-    git clone https://github.com/your-username/backoffice-react.git
+    git clone https://github.com/jeremytahar/resa-backoffice.git
     ```
 
 2. Accédez au dossier du projet :
     ```bash
-    cd backoffice-react
+    cd resa-backoffice
     ```
 
 3. Installez les dépendances :
     ```bash
     npm install
-    # ou avec yarn
-    yarn install
     ```
 
 4. Lancez l'application en mode développement :
     ```bash
-    npm start
-    # ou avec yarn
-    yarn start
+    npm run dev
     ```
 
-    L'application sera disponible sur `http://localhost:3000`.
+    L'application sera disponible sur `http://localhost:5173`.
