@@ -1,0 +1,79 @@
+.container {
+    padding: 2rem;
+}
+
+.subTitle {
+    font-size: 1.5rem;
+    /* margin-top: 3rem; */
+    margin-bottom: 1rem;
+}
+
+.statsContainer {
+    display: flex;
+    flex-direction: column;
+    /* gap: 1rem; */
+}
+
+.statsGrid {
+    display: flex;
+    flex-wrap: wrap;
+    /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.statCard {
+    background-color: #f4f4f4;
+    border-radius: 12px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease;
+    flex: 1;
+}
+
+.statCard h4 {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 0.5rem;
+}
+
+.statCard p {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #222;
+}
+
+/* Color accents */
+.cardBlue {
+    border-left: 6px solid #2c2c2a;
+}
+
+.cardGreen {
+    border-left: 6px solid #ea5b28;
+}
+
+.cardYellow {
+    border-left: 6px solid #2c2c2a;
+}
+
+.cardPink {
+    border-left: 6px solid #ea5b28;
+}
+
+.buttonLink {
+    display: flex;
+    width: fit-content;
+    margin-left: auto;
+    border: 1px solid #2c2c2a;
+    color: #2c2c2a;
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.buttonLink:hover {
+    background-color: #2c2c2a;
+    color: white;
+}
